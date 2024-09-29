@@ -70,4 +70,5 @@ for version; do
 
 	cp -a docker-entrypoint.sh modprobe.sh "$version/cli/"
 	cp -a dockerd-entrypoint.sh "$version/dind/"
+	cp -a .actrc "$version/dind/"
 done
